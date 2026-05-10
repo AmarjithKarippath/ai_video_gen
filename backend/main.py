@@ -53,7 +53,7 @@ app = FastAPI(
 
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["http://localhost:4173", "http://frontend:3000"],  # Allow localhost:4173 and Docker service name
+    allow_origins=["http://localhost:4173", "http://frontend:3000", "https://www.waveify.ai"],  # Allow localhost, Docker service name, and production domain
     allow_credentials=True,
     allow_methods=["GET", "POST", "OPTIONS"],
     allow_headers=["*"],
