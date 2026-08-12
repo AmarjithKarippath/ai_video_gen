@@ -1,0 +1,8 @@
+User-agent: *
+Allow: /
+
+# Disallow private/app paths if added later
+Disallow: /api/
+Disallow: /customers/
+
+Sitemap: https://www.waveify.ai/sitemap.xml
